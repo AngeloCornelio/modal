@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AngeloCornelio/modal/issues"
   },
-  "homepage": "https://github.com/AngeloCornelio/modal#readme"
+  "homepage": "https://github.com/AngeloCornelio/modal#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
 }
