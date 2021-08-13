@@ -78,3 +78,12 @@ h2 {
     font-size: 2em;
     color: #122c3c;
 }
+
+.close {
+    font-family: initial;
+    font-size: 2em;
+    padding: 0.5em;
+    background-color: transparent;
+    border: none;
+    color: #b00;
+}
