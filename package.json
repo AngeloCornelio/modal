@@ -1,0 +1,27 @@
+{
+  "name": "modal",
+  "version": "1.0.0",
+  "description": "An example modal for my GitHub portfolio.",
+  "main": "index.html",
+  "scripts": {
+    "test": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloCornelio/modal.git"
+  },
+  "keywords": [
+    "modal"
+  ],
+  "author": "Angelo Cornelio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloCornelio/modal/issues"
+  },
+  "homepage": "https://github.com/AngeloCornelio/modal#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  }
+}

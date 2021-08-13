@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/john-smilga/javascript-basic-projects/master/06-modal/setup/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    flex-basis: 50%;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #122c3c;
+    text-align: center;
+}
+
+.open {
+    background-color: #49a6e9;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(73, 166, 233, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    flex-basis: 49%;
+    height: 45%;
+    box-sizing: border-box;
+    padding: 0 0.5em;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #122c3c;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.close {
+    font-family: initial;
+    font-size: 2em;
+    padding: 0.5em;
+    background-color: transparent;
+    border: none;
+    color: #b00;
+    float: right;
+}
+
+/* DISPLAY FUNCTIONALITY */
+.show {
+    display: flex;
+}
