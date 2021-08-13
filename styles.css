@@ -57,7 +57,7 @@ h1 {
     bottom: 0;
     z-index: 1;
     background-color: rgba(73, 166, 233, 0.5);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -85,4 +85,9 @@ h2 {
     border: none;
     color: #b00;
     float: right;
+}
+
+/* DISPLAY FUNCTIONALITY */
+.show {
+    display: flex;
 }
